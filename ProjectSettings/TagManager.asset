@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - coletavel
+  - enemy
+  - diamond
+  - door
+  - passarFase
+  - colisor
   layers:
   - Default
   - TransparentFX
@@ -50,4 +55,10 @@ TagManager:
     locked: 0
   - name: entity
     uniqueID: 3316752035
+    locked: 0
+  - name: UI
+    uniqueID: 3899712285
+    locked: 0
+  - name: Pause
+    uniqueID: 225740781
     locked: 0

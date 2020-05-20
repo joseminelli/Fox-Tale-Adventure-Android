@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1024134953067790777
+--- !u!1 &5133386141933324816
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1024134953067790778}
-  - component: {fileID: 1024134953067790780}
-  - component: {fileID: 1024134953067790779}
-  - component: {fileID: 1024134953067790781}
+  - component: {fileID: 5133386141933324812}
+  - component: {fileID: 5133386141933324819}
+  - component: {fileID: 5133386141933324818}
+  - component: {fileID: 5133386141933324817}
   m_Layer: 0
   m_Name: gem-1
-  m_TagString: coletavel
+  m_TagString: diamond
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1024134953067790778
+--- !u!4 &5133386141933324812
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024134953067790777}
+  m_GameObject: {fileID: 5133386141933324816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.734432, y: -2.3632398, z: 0.703125}
+  m_LocalPosition: {x: 26.18, y: -2.41, z: 0.703125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1024134953067790780
+--- !u!212 &5133386141933324819
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024134953067790777}
+  m_GameObject: {fileID: 5133386141933324816}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -82,14 +82,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1024134953067790779
+--- !u!95 &5133386141933324818
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024134953067790777}
+  m_GameObject: {fileID: 5133386141933324816}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f5e257ad536474c45948b912bd525751, type: 2}
@@ -101,13 +101,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &1024134953067790781
+--- !u!61 &5133386141933324817
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024134953067790777}
+  m_GameObject: {fileID: 5133386141933324816}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
